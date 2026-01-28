@@ -69,4 +69,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 //sea serio compa
 
+<<<<<<< HEAD
 //tres tristes tigresas
+=======
+// probando :V ya me funciono creo hahaha fabri
+>>>>>>> 1dbf88f57c7265068ba7c8b5b6c440ac5c471650
