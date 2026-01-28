@@ -66,7 +66,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 </body>
 </html>
-
-//sea serio compa
-
-// probando :V ya me funciono creo hahaha fabri mira aver si funciona bien
+// cambios
