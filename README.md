@@ -43,11 +43,11 @@ Proyecto Citas Medicas/
 
 ## 🐳 Servicios Docker
 
-| Servicio | Puerto | Usuario | Contraseña |
-|----------|--------|---------|-----------|
-| PHP-Apache | 80 | - | - |
-| MySQL | 3306 | root | root123 |
-| phpMyAdmin | 8080 | root | root123 |
+| Servicio   | Puerto | Usuario | Contraseña |
+| ---------- | ------ | ------- | ---------- |
+| PHP-Apache | 80     | -       | -          |
+| MySQL      | 3306   | root    | root123    |
+| phpMyAdmin | 8080   | root    | root123    |
 
 ## 🔧 Requisitos
 
@@ -100,6 +100,7 @@ Deberías ver los 3 contenedores en estado `Up`.
 ### Tablas
 
 **medicos**: Información de los médicos
+
 ```sql
 - id (INT, PK)
 - nombre (VARCHAR)
@@ -110,6 +111,7 @@ Deberías ver los 3 contenedores en estado `Up`.
 ```
 
 **citas**: Registro de citas
+
 ```sql
 - id (INT, PK)
 - paciente_nombre (VARCHAR)
@@ -126,16 +128,19 @@ Deberías ver los 3 contenedores en estado `Up`.
 ## 📝 Uso de la Aplicación
 
 ### 1. Ver Médicos
+
 - Navega a "Médicos"
 - Visualiza la lista completa de médicos y sus especialidades
 
 ### 2. Agendar Cita
+
 - Haz clic en "Agendar Cita"
 - Completa el formulario con tus datos
 - Selecciona fecha y hora
 - Envía el formulario
 
 ### 3. Ver Mis Citas
+
 - Navega a "Mis Citas"
 - Visualiza todas las citas agendadas
 - Puedes editar o eliminar citas
@@ -181,6 +186,7 @@ docker exec -it citas-medicas-mysql mysql -u root -p
 ## 🤝 Contribuir
 
 Las contribuciones son bienvenidas. Para cambios importantes:
+
 1. Fork el proyecto
 2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
 3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
@@ -197,4 +203,4 @@ Para preguntas o problemas, contacta a: soporte@citas-medicas.com
 
 ---
 
-**Última actualización**: 25 de Enero, 2026
+**Última actualización**: 27 de Enero, 2026
