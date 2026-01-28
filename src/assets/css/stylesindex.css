@@ -1,0 +1,23 @@
+.hero {
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("../img/hero-medico.jpg") center/cover no-repeat;
+    padding: 120px 0;
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.footer-link {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
