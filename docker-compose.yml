@@ -31,7 +31,8 @@ services:
     image: mysql:8.0
     container_name: citas-medicas-mysql
     ports:
-      - "3309:3309"
+      - "3306:3306"
+    
     environment:
       - MYSQL_ROOT_PASSWORD=root123
       - MYSQL_DATABASE=citas_medicas
